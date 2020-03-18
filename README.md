@@ -8,7 +8,9 @@ If you're instead building Python from source code, the Visual Studio projects i
 
 Once you've installed or compiled, test it out to make sure it works. From the Python prompt, enter these two commands:
 
+```python
 >>> import tkinter
 >>> tkinter._test()
+```
 
 This should pop up a small window; the first line at the top of the window should say "This is Tcl/Tk version 8.6"; make sure it is not 8.4 or 8.5!
